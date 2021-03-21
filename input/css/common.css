@@ -1,0 +1,100 @@
+body, html {
+	margin:0;
+	padding:0;
+	color: #333333;
+	background:#E3E0D1;
+	font-family: Georgia;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+h1, h2, h3 {
+	font-family: Georgia;
+	font-weight: 400;
+	color: #444444;
+}
+
+h2 {
+	margin-bottom: 3px;
+	margin-left: 10px;
+}
+
+body {
+	width:900px;
+	margin:0 auto;
+	background:#FFFFF0;	
+}
+
+a {
+	color: #991322;
+}
+
+p {
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+p + p {
+	margin-top: 6px;
+}
+
+a:visited {
+	
+}
+
+#menu a {
+	color: #329913;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+#menu {
+	float: right;
+	width: 150px;
+	margin-top: 12px;
+}
+
+#spacer {
+	height: 15px;
+	background:#E3E0D1;
+}
+
+#contents {
+	float: left;
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 12px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+
+#contents ul {
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+#footer {
+	clear: both;
+	font-size: 10px;
+	margin: 0 auto;
+}
+
+#menu > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.emph {
+	font-weight: 800;
+}
+
+hr {
+	color: red;
+	width: 90%;
+}
