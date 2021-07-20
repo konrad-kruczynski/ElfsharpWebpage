@@ -5,6 +5,13 @@ This is *ELFSharp* by Konrad Kruczyński (and other [authors](authors.html)), a 
 ****
 
 # News
+
+## 2021-07-20
+ELFSharp 2.13 released. Added Mach-O file flags.
+
+## 2021-06-21
+ELFSharp 2.12.1 released. Fixes a `InvalidOperationException` when parsing intermediate object file.
+
 ## 2021-03-21
 The ELFSharp webpage is now statically generated using [Statiq.Web](https://statiq.dev/web/), all subpages should be working fine now (previously only the news page was available).
 
