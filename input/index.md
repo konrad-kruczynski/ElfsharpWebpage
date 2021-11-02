@@ -6,6 +6,9 @@ This is *ELFSharp* by Konrad Kruczyński (and other [authors](authors.html)), a 
 
 # News
 
+## 2021-11-02
+ELFSharp 2.13.1 released. Fixed a bug when 64-bit big-endian Mach-O files were treated as 32-bit.
+
 ## 2021-07-20
 ELFSharp 2.13 released. Added Mach-O file flags.
 
