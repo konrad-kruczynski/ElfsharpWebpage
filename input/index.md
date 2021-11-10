@@ -6,6 +6,9 @@ This is *ELFSharp* by Konrad Kruczyński (and other [authors](authors.html)), a 
 
 # News
 
+## 2021-11-10
+ELFSharp 2.13.2 released. Fixed a bug when reading a NOBITS ELF section.
+
 ## 2021-11-02
 ELFSharp 2.13.1 released. Fixed a bug when 64-bit big-endian Mach-O files were treated as 32-bit.
 
