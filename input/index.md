@@ -6,6 +6,13 @@ This is *ELFSharp* by Konrad Kruczyński (and other [authors](authors.html)), a 
 
 # News
 
+## 2022-04-08
+ELFSharp 2.14 released. Fixes the bug of incorrect interpretation of the value of `shouldOwnStream` parameter in Mach-O binaries. Also adds useful constraint on what is expected from `GetCommandsOfType<T>` (commands, naturally) and Mach-O symbol now knows to which section it belongs.
+
+## 2022-02-17
+ELFSharp 2.13.3 released. This is just a technical release, since the binaries are identical. The only difference
+is in the package itself, now having proper license keyword.
+
 ## 2021-11-10
 ELFSharp 2.13.2 released. Fixed a bug when reading a NOBITS ELF section.
 
