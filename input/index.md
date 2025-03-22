@@ -6,6 +6,33 @@ This is *ELFSharp* by Konrad Kruczyński (and other [authors](authors.html)), a 
 
 # News
 
+## 2023-10-13
+ELFSharp 2.17.3 released. Fixed magic value for the x64 BE Mach-O binary.
+
+## 2023-06-14
+ELFSharp 2.17.2 released. Fixed reading LC_UUID command.
+
+## 2023-04-25
+ELFSharp 2.17.1 released. Fixed another edge case regarding `SHN_LORESERVE` and string table index. 
+
+## 2023-04-03
+ELFSharp 2.17 released. Added a command to parse LC_UUID and ability to get the UUID (for Mach-O files, obviously).
+
+## 2023-01-11
+ELFSharp 2.16.1 released. Fixes leaving open stream on ELF loading if it is owned and loading fails.
+
+## 2022-12-04
+ELFSharp 2.16 released. Adds support for multi-file uImage binaries, popular solution for joining e.g. Linux kernel and an FDT describing platform.
+
+## 2022-11-14
+ELFSharp 2.15.2 released. Fixes a bug in which an ELF binary with sections count greater than `SHN_LORESERVE` and containg string table could not be read.
+
+## 2022-11-12
+ELFSharp 2.15.1 released. Fixes a bug in which number of sections in ELF file was incorrectly read in case it was larger than `SHN_LORESERVE`.
+
+## 2022-04-11
+ELFSharp 2.15 released. Multiple notes are now available in the `NoteSegment`. First note is still available via old API for backwards compatibility.
+
 ## 2022-04-08
 ELFSharp 2.14 released. Fixes the bug of incorrect interpretation of the value of `shouldOwnStream` parameter in Mach-O binaries. Also adds useful constraint on what is expected from `GetCommandsOfType<T>` (commands, naturally) and Mach-O symbol now knows to which section it belongs.
 

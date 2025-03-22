@@ -90,6 +90,15 @@ a:visited {
 	list-style: none;
 }
 
+#hosting-note {
+	font-size: 10pt;
+	text-align: center;
+}
+
+#hosting-note-logo {
+	width: 80%;
+}
+
 .emph {
 	font-weight: 800;
 }
